@@ -11,6 +11,6 @@ output: total = [4, 9, 18...]
 input:  ['j', 'd', 'k', 'e', 'n', 'v', 'g', 'h'];
 output: sum of even value is even 12, sum of add values is odd 14, total of both sum is even 26. 
 ```
-code: [two.js](https://github.com/purnima999/React_solutions/blob/main/two.js).
+[code](https://github.com/purnima999/React_solutions/blob/main/two.js).
 
 
