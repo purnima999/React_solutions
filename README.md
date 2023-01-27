@@ -13,5 +13,11 @@ input:  ['j', 'd', 'k', 'e', 'n', 'v', 'g', 'h'];
 output: sum of even value is even 12, sum of add values is odd 14, total of both sum is even 26. 
 ```
 
+#3. find the number from string and reverse only the number.
+```
+input: "Purnima123"
+output: "Purnima321"
+````
+
 
 
