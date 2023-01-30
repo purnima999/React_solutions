@@ -18,6 +18,13 @@ output: sum of even value is even 12, sum of add values is odd 14, total of both
 input: "Purnima123"
 output: "Purnima321"
 ````
+#4. Convert the font style on the basis of input values for example: *Hello*: should be bold, _Hello_: should be italic, 
+#[code](https://github.com/purnima999/React_solutions/blob/main/four.js).
+```
+input: *Hello Bold* _Hello italic_ `Hello strikethrough` ~Hello monospace~
+output: <img width="133" alt="image" src="https://user-images.githubusercontent.com/57531599/215480634-42cd4862-515f-449d-9df3-35f40cfb6efe.png">
+```
+
 
 
 
