@@ -25,7 +25,32 @@ output: "Purnima321"
 input: *Hello Bold* _Hello italic_ `Hello strikethrough` ~Hello monospace~
 output: <img width="133" alt="image" src="https://user-images.githubusercontent.com/57531599/215480634-42cd4862-515f-449d-9df3-35f40cfb6efe.png">
 ```
+#5. typecase using map
+```
+const numbers = ["65", "12", "4", "-0.23", "6.543"];
+const newArr = numbers.map(Number)
+console.log(newArr) //Array(5)[ 65,12,4,-0.23,6.543 ]
+```
+#6. remove duplicates 
 
+```
+const numbers = [1, 2, 3, 4, 4, 4, 4, 5, 6, 6, 7];
+const fruits = ["apple", "pear", "banana", "apple", "apple", "cherry"];
+
+const uniqueNumbers = [...new Set(numbers)];
+const uniqueStr = [...new Set(fruits)];
+console.log("uniqueNumbers", uniqueNumbers, uniqueStr);
+
+output:
+uniqueNumbers
+(7) [1, 2, 3, 4, 5, 6, 7]
+(4) ["apple", "pear", "banana", "cherry"...]
+0:"apple"
+1:"pear"
+2:"banana"
+3:"cherry"
+[[Prototype]]:[]
+```
 
 
 
